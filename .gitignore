@@ -1,0 +1,47 @@
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Python-related files
+*.pyc
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE files (e.g., PyCharm, VS Code)
+.idea/
+.vscode/
+
+# Ignore environment and dependency files
+.env
+venv/
+*.env
+
+# Ignore log files
+*.log
+
+# Ignore package directories
+node_modules/
+packages/
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore macOS metadata files
+*.DS_Store
+
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore cache files
+*.cache
+
+# Ignore SQLite database files
+*.sqlite3
+
+# Ignore backup files created by text editors or IDEs
+*~
